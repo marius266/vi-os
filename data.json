@@ -1,42 +1,36 @@
 {
- "updated": "Fri 16 Oct 2026 · 10:08 SAST",
- "updatedNote": "All sources read: Gmail, work calendar (Chrome) and sheet tab F. Birthdays calendar is switched off in Calendar, so birthdays may be missing.",
+ "updated": "Fri 16 Oct 2026 · 17:10 SAST",
+ "updatedNote": "Manual run at 17:10 (you asked for it this afternoon). All sources read: Gmail, work calendar (Chrome) and sheet tab F. Birthdays calendar is switched off in Calendar, so birthdays may be missing.",
  "day": "Friday 16 October",
  "emails": [
   {
-   "from": "Gouwah Matthews-Isaacs (finance model)",
-   "subject": "VI Credit Card Recon for YE2026 (Aug25-Jul26)",
-   "why": "09:50: asks when you can sit down to discuss your credit card recon and the allocations to your loan account. Data sent: credit card recon YE2026 (attachment). Reply with a time.",
-   "tag": "today"
-  },
-  {
    "from": "Lehlohonolo Tau, CSIR Strategic Communication",
    "subject": "Re: Dual presidential teleprompter training",
-   "why": "Proposal promised today. All questions answered: StagePro Presidential (17\" glass) + TeleScrollPro, never used; training on site in Brummeria, Pretoria (confirmed 09:41). Roedolph & Tom briefed 08:32 — chase their input, then send the two quotes (prompter + training) with duration and travel.",
+   "why": "Proposal promised today and still not sent. You have everything: StagePro Presidential 17\" + TeleScrollPro, never used, on site in Brummeria, Pretoria (09:41); Roedolph says 1 day of training is enough, they need a laptop with the software plus HDMI/VGA cable (11:16). Send the two quotes (prompter + training) with duration and travel.",
    "tag": "urgent"
   },
   {
-   "from": "John, ProSolve (ticket #13388)",
-   "subject": "Re: visuals.tv email authentication: DKIM and DMARC",
-   "why": "Call booked: you told John 'after 14h00' (09:57). Before the call, read Somtoo's domain options (09:58): visualimpactsa.co.za (his preference) or visuals-sa.co.za. Nothing to register until John agrees.",
+   "from": "Gouwah Matthews-Isaacs (finance model)",
+   "subject": "VI Credit Card Recon for YE2026 (Aug25-Jul26)",
+   "why": "You offered 11:45; she said yes and has questions on the analysis data too (10:34). Data sent: credit card recon YE2026 (attachment). If you didn't get to sit down today, give her a slot Monday. Separately she flagged (10:52) a phishing mail to accounts@ pretending to be you — no action, just be aware.",
+   "tag": "today"
+  },
+  {
+   "from": "Gouwah (finance model)",
+   "subject": "Re: VI SA analysis - outstanding information / Financial Server Folder",
+   "why": "Two threads unanswered since Wed night: answers in red (22:52) with bank statements, director loans, debtors/creditors and sales in the Executive folder; and (21:06) Melusi's intern-to-technician dates and Daniel Taitz allocated to JHB for the payroll split. Review and update the model. Still open: R5m FY2024 line, suspense, fixed commitments; FY2026 accounts due 20 Oct.",
+   "tag": "today"
+  },
+  {
+   "from": "Xolelwa Pheme, Media Hive reception",
+   "subject": "Re: KONE Tender T-0010034977 – lift display board & push buttons",
+   "why": "Second chase (10:58) on the KONE quote from August; lift reported not holding open while loading. Approve the quote or tell her how to proceed (also to Gouwah and Nurahn).",
    "tag": "today"
   },
   {
    "from": "Xero invoice reminders (lumenyl)",
    "subject": "Bill INV-0001 from lumenyl is due",
    "why": "R9,000.00 overdue since 2 Oct. Check it's legitimate, then pay or query.",
-   "tag": "today"
-  },
-  {
-   "from": "Gouwah (finance)",
-   "subject": "Re: VI SA analysis - outstanding information",
-   "why": "Answers in red (15 Oct 22:52); bank statements, director loans, debtors/creditors and sales in Executive folder. Review and update the model. Still open: R5m FY2024 line, suspense, fixed commitments; FY2026 accounts due 20 Oct.",
-   "tag": "today"
-  },
-  {
-   "from": "Nelita Viljoen, Cape Agulhas Municipality",
-   "subject": "RE: Erf 1813 en Erf 398 Napier – betaling van rekeninge",
-   "why": "Advises paying the accounts as they stand now; the revised valuation may only load in November. Arrange payment.",
    "tag": "today"
   }
  ],
@@ -53,7 +47,7 @@
   },
   {
    "item": "Approve the 13 Mailchimp groups",
-   "detail": "Sheet tab F – 230 leads, deduped. Unchanged since yesterday.",
+   "detail": "Sheet tab F – 230 leads, deduped. Unchanged. Sheet is now named 'VI Target Lists – Sales, Rentals, Education'.",
    "tag": "today"
   },
   {
@@ -68,25 +62,106 @@
   },
   {
    "item": "Decide the outreach domain (after John call)",
-   "detail": "Somtoo replied 09:58: visualimpactsa.co.za (his pick) or visuals-sa.co.za. Datavideo graphics from him still outstanding. Brand kit arrived: forward the zip to Claude to restyle VI OS.",
+   "detail": "Did the ProSolve call happen after 14:00? Somtoo's options (09:58): visualimpactsa.co.za (his pick) or visuals-sa.co.za. Nothing to register until John agrees. Datavideo graphics from Somtoo still outstanding. Brand kit arrived: forward the zip to Claude to restyle VI OS.",
    "tag": "fyi"
   },
   {
-   "item": "Work PC screen set to never turn off?",
-   "detail": "Calendar read fine this morning. Sheet is still 'Untitled spreadsheet'; the 16:00 check will rename it if the screen is on.",
+   "item": "Body corporate: Nazeema approved points 3 & 4",
+   "detail": "Trustee decisions (12:05): go ahead with points 3 and 4; point 1 waits on Dave's finance update (he's reviewing, 12:28). Dave also answered your waterproofing questions at 17:03.",
+   "tag": "fyi"
+  },
+  {
+   "item": "Google security alert: security key removed (11:51)",
+   "detail": "2-Step Verification key removed from marius@visuals.tv. If that wasn't you, check account activity.",
    "tag": "fyi"
   }
  ],
  "calendar": [
-  {"time": "08:31", "title": "CSIR model arrived – brief Roedolph & Tom by email", "auto": true},
-  {"time": "10:30–11:30", "title": "George roof inspection – Flat 9"},
-  {"time": "13:00–14:00", "title": "Hennie lunch – Roxy's Cafe, Gardens"},
-  {"time": "After 14:00", "title": "Call John (ProSolve) – DKIM/DMARC & outreach domain"},
-  {"time": "16:00", "title": "Work PC overnight readiness check", "auto": true},
-  {"time": "06:35–19:05", "title": "Inbox checks every 30 min", "auto": true}
+  {
+   "time": "08:31",
+   "title": "CSIR model arrived – brief Roedolph & Tom by email",
+   "auto": true
+  },
+  {
+   "time": "10:30–11:30",
+   "title": "George roof inspection – Flat 9"
+  },
+  {
+   "time": "13:00–14:00",
+   "title": "Hennie lunch – Roxy's Cafe, Gardens"
+  },
+  {
+   "time": "After 14:00",
+   "title": "Call John (ProSolve) – DKIM/DMARC & outreach domain"
+  },
+  {
+   "time": "16:00",
+   "title": "Work PC overnight readiness check",
+   "auto": true
+  },
+  {
+   "time": "06:35–19:05",
+   "title": "Inbox checks every 30 min",
+   "auto": true
+  }
  ],
  "leads": [
-  ["Broadcasters (SA & SADC)",33],["Reality TV producers",27],["Drama, film & TV production",21],["Universities & film schools",21],["International & SADC shoots",20],["Studios, OB & event AV",18],["Commercials & ad agencies",18],["Wildlife & natural history",17],["Corporate & mining in-house media",16],["Robotics labs (OptiTrack)",11],["Creators, podcasters & agencies",8],["Private schools & school groups",7],["Churches & streaming",5],["Personal approach",8]
+  [
+   "Broadcasters (SA & SADC)",
+   33
+  ],
+  [
+   "Reality TV producers",
+   27
+  ],
+  [
+   "Drama, film & TV production",
+   21
+  ],
+  [
+   "Universities & film schools",
+   21
+  ],
+  [
+   "International & SADC shoots",
+   20
+  ],
+  [
+   "Studios, OB & event AV",
+   18
+  ],
+  [
+   "Commercials & ad agencies",
+   18
+  ],
+  [
+   "Wildlife & natural history",
+   17
+  ],
+  [
+   "Corporate & mining in-house media",
+   16
+  ],
+  [
+   "Robotics labs (OptiTrack)",
+   11
+  ],
+  [
+   "Creators, podcasters & agencies",
+   8
+  ],
+  [
+   "Private schools & school groups",
+   7
+  ],
+  [
+   "Churches & streaming",
+   5
+  ],
+  [
+   "Personal approach",
+   8
+  ]
  ],
- "leadNote": "Tab F unchanged (230 leads, recounted 08:15). Deduped against Mailchimp: 6 leads already subscribed, 46 more companies have other addresses there (12 include an unsubscribe). About 172 new addresses to import. 52 leads still have no email."
+ "leadNote": "Tab F unchanged (230 leads, recounted 17:10). Deduped against Mailchimp: 6 leads already subscribed, 46 more companies have other addresses there (12 include an unsubscribe). About 172 new addresses to import. 52 leads still have no email."
 }
