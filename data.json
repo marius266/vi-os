@@ -1,167 +1,160 @@
 {
- "updated": "Fri 16 Oct 2026 · 17:10 SAST",
- "updatedNote": "Manual run at 17:10 (you asked for it this afternoon). All sources read: Gmail, work calendar (Chrome) and sheet tab F. Birthdays calendar is switched off in Calendar, so birthdays may be missing.",
- "day": "Friday 16 October",
+ "updated": "Sat 17 Oct 2026 · 08:15 SAST",
+ "updatedNote": "No link to the work PC on this run, so the calendar was read through the Google Calendar connector instead of Chrome: all four calendars are empty today and the birthdays calendar is still switched off. Sheet tab F unchanged since Friday, so lead counts were not recounted.",
+ "day": "Saturday 17 October",
  "emails": [
   {
    "from": "Lehlohonolo Tau, CSIR Strategic Communication",
    "subject": "Re: Dual presidential teleprompter training",
-   "why": "Proposal promised today and still not sent. You have everything: StagePro Presidential 17\" + TeleScrollPro, never used, on site in Brummeria, Pretoria (09:41); Roedolph says 1 day of training is enough, they need a laptop with the software plus HDMI/VGA cable (11:16). Send the two quotes (prompter + training) with duration and travel.",
-   "tag": "urgent"
+   "why": "Proposal promised Friday, still not sent. You now have everything: StagePro Presidential 17\" + TeleScrollPro, training in Brummeria, Pretoria; Roedolph says 1 day is enough. Send the two quotes.",
+   "tag": "urgent",
+   "link": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879114189939585987",
+   "links": [
+    {
+     "label": "Roedolph's input",
+     "url": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879186979924856985"
+    }
+   ]
+  },
+  {
+   "from": "Somtoo Mekowulu",
+   "subject": "Re: New outreach domain – registration and DNS via Xneelo",
+   "why": "Unread since Fri 09:58. He proposes visualimpactsa.co.za (his pick) or visuals-sa.co.za. Reply with your choice once John (ProSolve) has agreed the approach — nothing registered until then.",
+   "tag": "today",
+   "link": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879182076286113363",
+   "links": [
+    {
+     "label": "John's thread",
+     "url": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879107054621405274"
+    }
+   ]
   },
   {
    "from": "Gouwah Matthews-Isaacs (finance model)",
-   "subject": "VI Credit Card Recon for YE2026 (Aug25-Jul26)",
-   "why": "You offered 11:45; she said yes and has questions on the analysis data too (10:34). Data sent: credit card recon YE2026 (attachment). If you didn't get to sit down today, give her a slot Monday. Separately she flagged (10:52) a phishing mail to accounts@ pretending to be you — no action, just be aware.",
-   "tag": "today"
+   "subject": "Re: VI SA analysis - outstanding information",
+   "why": "Her answers in red (Wed 22:52) plus Melusi's intern/technician dates and Daniel to JHB (Wed 21:06) are still unread. Fold them into the model; your Friday outstanding-items list and the R763k payroll-gap query are with her. FY2026 accounts due Tue 20 Oct.",
+   "tag": "today",
+   "link": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-a:r-2882312862449463280",
+   "links": [
+    {
+     "label": "Payroll dates",
+     "url": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879121588693624378"
+    },
+    {
+     "label": "Your Fri list",
+     "url": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879202136992256506"
+    }
+   ]
   },
   {
    "from": "Gouwah (finance model)",
-   "subject": "Re: VI SA analysis - outstanding information / Financial Server Folder",
-   "why": "Two threads unanswered since Wed night: answers in red (22:52) with bank statements, director loans, debtors/creditors and sales in the Executive folder; and (21:06) Melusi's intern-to-technician dates and Daniel Taitz allocated to JHB for the payroll split. Review and update the model. Still open: R5m FY2024 line, suspense, fixed commitments; FY2026 accounts due 20 Oct.",
-   "tag": "today"
+   "subject": "VI Credit Card Recon for YE2026 (Aug25-Jul26)",
+   "why": "She sent 'Marius C.Card – Loan Account & Full Statement – YE2026.xlsx' and wants to go through the loan-account allocations. If Friday's 11:45 sit-down didn't cover it, give her a Monday slot. Her other mail: the 'Request' email to accounts was phishing, not you — no action.",
+   "tag": "fyi",
+   "link": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879191890626381896",
+   "links": [
+    {
+     "label": "Phishing FYI",
+     "url": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879195783920283533"
+    }
+   ]
   },
   {
-   "from": "Xolelwa Pheme, Media Hive reception",
-   "subject": "Re: KONE Tender T-0010034977 – lift display board & push buttons",
-   "why": "Second chase (10:58) on the KONE quote from August; lift reported not holding open while loading. Approve the quote or tell her how to proceed (also to Gouwah and Nurahn).",
-   "tag": "today"
-  },
-  {
-   "from": "Xero invoice reminders (lumenyl)",
-   "subject": "Bill INV-0001 from lumenyl is due",
-   "why": "R9,000.00 overdue since 2 Oct. Check it's legitimate, then pay or query.",
-   "tag": "today"
+   "from": "Jolanda (via Dave, Chejero body corporate)",
+   "subject": "Re: Payments",
+   "why": "She isn't on the FNB account yet and says she's lost in the approvals. You already authorised Friday's batch (Shokunin R1,500, Chejero R15,950, Buildcraft R600, R24,000 transfer – all processed). A short note to her and Dave on FNB access would settle it.",
+   "tag": "fyi",
+   "link": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879220237008154284"
   }
  ],
  "approvals": [
   {
-   "item": "Approve 13 cold-email drafts + Portuguese version",
-   "detail": "Gmail › Drafts, [COLD 01] to [COLD 13]. Nothing sent. Send queue (tab G, 25/day) starts after approval — but wait for the new outreach domain first.",
-   "tag": "today"
-  },
-  {
    "item": "Approve the email to Somtoo (13 tags, no bulk import)",
-   "detail": "Gmail draft 'Mailchimp: new tags for interested leads'. Still unsent.",
-   "tag": "today"
-  },
-  {
-   "item": "Approve the 13 Mailchimp groups",
-   "detail": "Sheet tab F – 230 leads, deduped. Unchanged. Sheet is now named 'VI Target Lists – Sales, Rentals, Education'.",
-   "tag": "today"
+   "detail": "Draft 'Mailchimp: new tags for interested leads' is still in Drafts, unsent since Thu.",
+   "tag": "today",
+   "link": "https://mail.google.com/mail/?authuser=marius@visuals.tv#drafts"
   },
   {
    "item": "Coemar ReLite: LinkedIn post + 2 FB graphics",
-   "detail": "LinkedIn draft is in your inbox (14 Oct). FB graphics in Google Drive (Post1, Post2). Say who posts.",
-   "tag": "today"
+   "detail": "Friday's handover from the Mia account confirms graphics and captions are drafted, not yet posted. Say who posts and when.",
+   "tag": "today",
+   "link": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879239065419157871"
   },
   {
    "item": "Mia: your 13 Oct marketing actions",
-   "detail": "Activate MIA OS staff accounts; Namibia footage to Somtoo; book 2 Somtoo sessions before Tue 20 Oct; pitcher training docs to team. Mia OS budget question also still open.",
+   "detail": "Activate MIA OS staff accounts; Namibia footage to Somtoo; book 2 Somtoo sessions before Tue 20 Oct; pitcher training docs to team. Mia OS budget question still open.",
    "tag": "today"
   },
   {
    "item": "Decide the outreach domain (after John call)",
-   "detail": "Did the ProSolve call happen after 14:00? Somtoo's options (09:58): visualimpactsa.co.za (his pick) or visuals-sa.co.za. Nothing to register until John agrees. Datavideo graphics from Somtoo still outstanding. Brand kit arrived: forward the zip to Claude to restyle VI OS.",
-   "tag": "fyi"
+   "detail": "Somtoo's reply is waiting (see email 02). Did the ProSolve call happen Friday afternoon? Brand kit zip is in his Thursday email — forward it to Claude to restyle VI OS.",
+   "tag": "today",
+   "link": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879182076286113363",
+   "links": [
+    {
+     "label": "Brand kit",
+     "url": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879141263983677479"
+    }
+   ]
   },
   {
-   "item": "Body corporate: Nazeema approved points 3 & 4",
-   "detail": "Trustee decisions (12:05): go ahead with points 3 and 4; point 1 waits on Dave's finance update (he's reviewing, 12:28). Dave also answered your waterproofing questions at 17:03.",
-   "tag": "fyi"
+   "item": "Mia → VI handover packs landed Friday evening",
+   "detail": "Four emails from marius@miahealthcare.co.za: Rentals-Sales Dashboard rebuild files + Current RMS link, Performance Dashboard handover pack, Media Hive Acquisition Viability export, Coemar handover. Set them up in the VI Claude profile.",
+   "tag": "fyi",
+   "link": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879223211498825158",
+   "links": [
+    {
+     "label": "Performance pack",
+     "url": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879238627553295517"
+    },
+    {
+     "label": "Media Hive export",
+     "url": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879238039383530601"
+    }
+   ]
   },
   {
-   "item": "Google security alert: security key removed (11:51)",
+   "item": "FBSSC final notice: SGM and AGM Sat 24 Oct, 15:00",
+   "detail": "Notice is on the member portal. Put it in the calendar if you're going.",
+   "tag": "fyi",
+   "link": "https://mail.google.com/mail/?authuser=marius@visuals.tv#all/thread-f:1879234880762738641"
+  },
+  {
+   "item": "Google security alert: security key removed (Fri 11:51)",
    "detail": "2-Step Verification key removed from marius@visuals.tv. If that wasn't you, check account activity.",
    "tag": "fyi"
   }
  ],
  "calendar": [
   {
-   "time": "08:31",
-   "title": "CSIR model arrived – brief Roedolph & Tom by email",
+   "time": "—",
+   "title": "No meetings or all-day items in your calendars today"
+  },
+  {
+   "time": "07:03 / 12:03 / 16:03",
+   "title": "VI Rentals-Sales dashboard refresh",
    "auto": true
   },
   {
-   "time": "10:30–11:30",
-   "title": "George roof inspection – Flat 9"
-  },
-  {
-   "time": "13:00–14:00",
-   "title": "Hennie lunch – Roxy's Cafe, Gardens"
-  },
-  {
-   "time": "After 14:00",
-   "title": "Call John (ProSolve) – DKIM/DMARC & outreach domain"
-  },
-  {
-   "time": "16:00",
-   "title": "Work PC overnight readiness check",
+   "time": "07:05 / 12:05 / 16:05",
+   "title": "VI Rentals Dashboard refresh",
    "auto": true
   },
   {
-   "time": "06:35–19:05",
-   "title": "Inbox checks every 30 min",
+   "time": "08:15",
+   "title": "VI OS morning update (this page + GitHub)",
    "auto": true
   }
  ],
- "leads": [
-  [
-   "Broadcasters (SA & SADC)",
-   33
-  ],
-  [
-   "Reality TV producers",
-   27
-  ],
-  [
-   "Drama, film & TV production",
-   21
-  ],
-  [
-   "Universities & film schools",
-   21
-  ],
-  [
-   "International & SADC shoots",
-   20
-  ],
-  [
-   "Studios, OB & event AV",
-   18
-  ],
-  [
-   "Commercials & ad agencies",
-   18
-  ],
-  [
-   "Wildlife & natural history",
-   17
-  ],
-  [
-   "Corporate & mining in-house media",
-   16
-  ],
-  [
-   "Robotics labs (OptiTrack)",
-   11
-  ],
-  [
-   "Creators, podcasters & agencies",
-   8
-  ],
-  [
-   "Private schools & school groups",
-   7
-  ],
-  [
-   "Churches & streaming",
-   5
-  ],
-  [
-   "Personal approach",
-   8
+ "outreach": {
+  "status": "On hold – waiting for Somtoo to set up the outreach website/domain",
+  "detail": "Everything else is ready: 230 leads in 13 groups (sheet tab F, unchanged since Friday), 13 cold-email drafts + a Portuguese version in Gmail, send queue at 25/day. Approvals of the drafts and groups wait until the domain exists.",
+  "tag": "hold",
+  "links": [
+   {
+    "label": "Drafts [COLD 01–13]",
+    "url": "https://mail.google.com/mail/?authuser=marius@visuals.tv#search/subject%3A%5BCOLD+in%3Adrafts"
+   }
   ]
- ],
- "leadNote": "Tab F unchanged (230 leads, recounted 17:10). Deduped against Mailchimp: 6 leads already subscribed, 46 more companies have other addresses there (12 include an unsubscribe). About 172 new addresses to import. 52 leads still have no email."
+ }
 }
