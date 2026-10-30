@@ -1,0 +1,11 @@
+﻿/config/
+.env
+.env.*
+!.env.example
+/backups/
+/imports/
+/logs/
+*.log
+*.sql
+*.sql.gz
+*.zip

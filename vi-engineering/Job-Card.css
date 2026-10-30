@@ -1,0 +1,501 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #17212b
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    background: #edf1f5
+}
+.signature-section {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.signature-row {
+    display: grid;
+    grid-template-columns: 125px 2fr 35px 110px 45px 130px;
+    align-items: end;
+    gap: 10px;
+    margin-bottom: 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.signature-line,
+.date-line,
+.name-line {
+    border-bottom: 1px solid #000;
+    height: 28px;
+}
+.toolbar {
+    max-width: 1100px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.toolbar button {
+    background: #155e94;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    padding: 11px 17px;
+    cursor: pointer
+}
+
+.toolbar button.secondary {
+    background: #475569
+}
+
+.toolbar small {
+    color: #475569
+}
+
+.sheet {
+    background: white;
+    max-width: 1100px;
+    margin: 0 auto 30px;
+    padding: 30px 35px;
+    box-shadow: 0 4px 25px #0002
+}
+
+.head {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 24px
+}
+
+.brand {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 15px
+}
+
+.offices {
+    display: flex;
+    justify-content: flex-end;
+    gap: 22px;
+    text-align: right;
+    font-size: 12px;
+    line-height: 1.5
+}
+
+.offices div+div {
+    border-left: 2px solid #222;
+    padding-left: 16px
+}
+
+.ref {
+    font-size: 22px;
+    font-weight: 800;
+    margin: 12px 0
+}
+
+.terms {
+    font-size: 11px;
+    line-height: 1.4
+}
+
+.section {
+    border-top: 2px solid #273747;
+    margin-top: 18px;
+    padding-top: 13px
+}
+
+.section h2 {
+    font-size: 19px;
+    margin: 0 0 12px
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px 24px
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0
+}
+
+.field label {
+    font-size: 13px;
+    font-weight: 700;
+    min-width: 105px
+}
+
+.field input,
+.field textarea,
+.field select {
+    flex: 1;
+    min-width: 0;
+    padding: 7px 9px;
+    border: 1px solid #cbd5e1;
+    border-radius: 3px;
+    background: #f1f3f5;
+    font: inherit;
+    font-size: 13px
+}
+
+.field textarea {
+    min-height: 65px;
+    resize: vertical
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px
+}
+
+.stack label {
+    min-width: 0
+}
+
+.wide {
+    grid-column: 1/-1
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    flex-wrap: wrap;
+    font-size: 13px
+}
+
+.choices label {
+    font-weight: 600;
+    white-space: nowrap
+}
+
+.choices input {
+    accent-color: #155e94
+}
+
+.note {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 12px 0
+}
+
+.signature {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 12px;
+    margin-top: 10px
+}
+
+.signature .field label {
+    min-width: 125px
+}
+
+.costs {
+    width: min(100%, 320px);
+    margin-left: auto
+}
+
+.costs .field label {
+    min-width: 80px
+}
+
+.costs input {
+    text-align: right
+}
+
+.costs .total input {
+    font-weight: bold;
+    background: #dbeafe
+}
+
+.muted {
+    color: #475569
+}
+
+.footer {
+    font-size: 10px;
+    line-height: 1.45;
+    margin-top: 15px
+}
+
+.two-panel {
+    display: grid;
+    grid-template-columns: 1.35fr 1fr;
+    gap: 22px
+}
+
+.two-panel .field {
+    margin-bottom: 9px
+}
+
+.two-panel textarea {
+    min-height: 180px
+}
+
+.top-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9px
+}
+
+.top-fields .field label {
+    min-width: 85px
+}
+.client-info .field {
+    margin-bottom: 6px;
+}
+
+@media(max-width:750px) {
+    .sheet {
+        padding: 18px
+    }
+
+    .head,
+    .grid,
+    .two-panel,
+    .signature,
+    .top-fields {
+        grid-template-columns: 1fr
+    }
+
+    .offices {
+        justify-content: flex-start
+    }
+
+    .wide {
+        grid-column: auto
+    }
+
+    .field label {
+        min-width: 100px
+    }
+    textarea[name="address"] {
+    min-height: 150px;
+    resize: vertical;
+    }
+}
+
+@media print {
+    @page {
+        size: A4 portrait;
+        margin: 5mm
+    }
+
+    body {
+        background: white;
+        color: black
+    }
+
+    .toolbar {
+        display: none
+    }
+
+    .sheet {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none
+    }
+
+    .head {
+        grid-template-columns: 1.15fr 1fr
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 5px 14px
+    }
+
+    .wide {
+        grid-column: 1/-1
+    }
+
+    .two-panel {
+        grid-template-columns: 1.35fr 1fr;
+        gap: 12px
+    }
+
+    .signature {
+        grid-template-columns: 2fr 1fr 1fr
+    }
+
+    .top-fields {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .brand {
+        font-size: 21px;
+        margin-bottom: 8px
+    }
+
+    .section {
+        margin-top: 9px;
+        padding-top: 7px;
+        break-inside: auto
+    }
+
+    .section h2 {
+        font-size: 16px;
+        margin-bottom: 6px
+    }
+
+    .field {
+        gap: 5px;
+    }
+
+    .field label {
+        font-size: 11px;
+        min-width: 83px
+    }
+
+    .field input,
+    .field textarea,
+    .field select {
+        font-size: 11px;
+        padding: 4px 5px;
+        background: #e9e9e9;
+        border: 0;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact
+    }
+
+    .field textarea {
+        min-height: 45px
+    }
+
+    .two-panel textarea {
+        min-height: 140px
+    }
+
+    .terms,
+    .footer {
+        font-size: 9px
+    }
+
+    .offices {
+        font-size: 10px
+    }
+
+    .note {
+        font-size: 11px;
+        margin: 6px 0
+    }
+
+    .toolbar {
+        display: none !important
+    }
+
+    .signature .field label {
+        min-width: 100px
+    }
+    
+}
+/* Hide authentication controls when printing or saving PDF */
+@media print {
+    .auth-toolbar,
+    .toolbar,
+    .no-print {
+        display: none !important;
+    }
+
+    /* Preserve the existing Job Card layout */
+    .sheet {
+        margin: 0 !important;
+        box-shadow: none !important;
+    }
+}
+/* One-page A4 layout for printing and browser Save as PDF */
+@media print {
+  @page { size: A4 portrait; margin: 4mm; }
+  html, body { margin: 0 !important; padding: 0 !important; }
+  .auth-toolbar, .toolbar, .no-print, body > nav { display: none !important; }
+  /* Chrome supports print zoom; applies only to the sheet, not the interface. */
+  .sheet { zoom: .78; width: 100% !important; max-width: none !important; margin: 0 !important; padding: 0 !important; }
+  .section { break-inside: auto !important; page-break-inside: auto !important; margin-top: 6px !important; padding-top: 5px !important; }
+  .section h2 { margin-bottom: 4px !important; }
+  .grid { gap: 3px 12px !important; }
+  .field { margin-bottom: 3px !important; }
+  .two-panel { gap: 10px !important; }
+  .two-panel textarea { min-height: 105px !important; }
+  textarea[name="address"] { min-height: 65px !important; height: 75px !important; }
+  .signature-section { margin: 8px 0 4px !important; }
+  .signature-row { margin-bottom: 9px !important; grid-template-columns: 125px minmax(0,2fr) 35px 95px 40px 110px !important; }
+  .signature-line, .date-line, .name-line { height: 18px !important; }
+}
+
+
+/* Independent columns stop the Accessories textarea stretching Model's row. */
+.job-sheet-original-grid { align-items: start; }
+.job-sheet-left, .job-sheet-right { min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+.job-sheet-left > .field, .job-sheet-right > .field { min-width: 0; margin: 0; }
+.job-sheet-left > .field:not(.stack) > label:first-child { flex: 0 0 105px; min-width: 0; }
+.job-sheet-left input, .job-sheet-left select, .job-sheet-left textarea { min-width: 0; }
+.job-sheet-right textarea[name="job_accessories"] { width: 100%; }
+@media (max-width:750px) { .job-sheet-left, .job-sheet-right { gap: 10px; } }
+@media print {
+  .job-sheet-left, .job-sheet-right { gap: 5px; }
+  .job-sheet-left > .field:not(.stack) > label:first-child { flex-basis: 83px; }
+}
+
+/* Receipt text spans the complete job sheet width, on screen and in print. */
+.receipt-full-width { width: 100%; margin-top: 14px; }
+.receipt-full-width .terms { width: 100%; max-width: none; }
+@media print { .receipt-full-width { margin-top: 7px; } }
+
+/* Parts cart - light and dark mode */
+.parts-cart{min-width:0;margin-bottom:12px}.parts-cart-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px;font-size:13px}.parts-cart-heading button,.part-remove{cursor:pointer;border:1px solid #64748b;border-radius:4px;padding:5px 9px;background:#334155;color:#fff}.parts-cart-scroll{overflow-x:auto}.parts-cart-table{width:100%;border-collapse:collapse;font-size:12px;min-width:340px}.parts-cart-table th,.parts-cart-table td{padding:4px;border-bottom:1px solid #64748b;text-align:left}.parts-cart-table th{font-weight:700}.parts-cart-table input{width:100%;min-width:0;box-sizing:border-box;padding:6px 4px;border:1px solid #94a3b8;border-radius:3px;background:#f8fafc;color:#0f172a}.parts-cart-table .part-desc{min-width:110px}.parts-cart-table .part-qty{min-width:50px}.parts-cart-table .part-price{min-width:75px}.parts-cart-table .part-total{white-space:nowrap}.parts-cart-table input:disabled{opacity:1;background:#e2e8f0;color:#1e293b}.parts-cart-table .part-remove:disabled{opacity:.4;cursor:default}body[data-theme="dark"] .parts-cart-table input,body.dark .parts-cart-table input{background:#273449;color:#fff;border-color:#64748b}@media print{.parts-cart-heading button,.parts-cart-table th:last-child,.parts-cart-table td:last-child{display:none!important}.parts-cart-table input{border:0;background:transparent!important;color:#000!important;padding:2px}.parts-cart-table{min-width:0}}
+
+
+/* Print job sheets exactly as light mode, regardless of selected screen theme. */
+@media print {
+  html, html.vi-dark { color-scheme: light !important; }
+  html.vi-dark body, html.vi-dark .sheet, html.vi-dark .section,
+  html.vi-dark .head, html.vi-dark .grid, html.vi-dark .two-panel,
+  html.vi-dark .receipt-full-width, html.vi-dark .parts-cart,
+  html.vi-dark .parts-cart-table, html.vi-dark .parts-cart-table th,
+  html.vi-dark .parts-cart-table td {
+    background: #fff !important; color: #000 !important;
+  }
+  html.vi-dark .section { border-color: #273747 !important; }
+  html.vi-dark .sheet .field input:not([type=checkbox]):not([type=radio]),
+  html.vi-dark .sheet .field textarea,
+  html.vi-dark .sheet .field select,
+  html.vi-dark .sheet .costs input:not([type=checkbox]):not([type=radio]) {
+    background: #e9e9e9 !important; color: #000 !important;
+    -webkit-text-fill-color: #000 !important; border: 0 !important;
+    opacity: 1 !important; print-color-adjust: exact !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  html.vi-dark .sheet .costs .total input {
+    background: #dbeafe !important;
+  }
+  html.vi-dark .sheet input[type=checkbox],
+  html.vi-dark .sheet input[type=radio] {
+    color-scheme: light !important; accent-color: #155e94 !important;
+    background: initial !important; opacity: 1 !important;
+    -webkit-appearance: auto !important; appearance: auto !important;
+  }
+  html.vi-dark .sheet .parts-cart-table input {
+    background: transparent !important; color: #000 !important;
+    -webkit-text-fill-color: #000 !important; border: 0 !important;
+    opacity: 1 !important;
+  }
+  html.vi-dark .sheet .parts-cart-table th,
+  html.vi-dark .sheet .parts-cart-table td {
+    border-bottom-color: #64748b !important; color: #000 !important;
+  }
+  html.vi-dark .sheet .brand, html.vi-dark .sheet .terms,
+  html.vi-dark .sheet .ref, html.vi-dark .sheet label,
+  html.vi-dark .sheet h2, html.vi-dark .sheet .parts-cart-heading,
+  html.vi-dark .sheet .part-total { color: #000 !important; }
+}
